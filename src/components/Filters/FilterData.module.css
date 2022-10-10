@@ -1,0 +1,26 @@
+*{
+    text-align: center;
+}
+
+.categories {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+
+.categories > div {
+    border: 1px solid black;
+    border-radius: 7px;
+    margin: 5px;
+    padding: 10px 22px;
+    box-shadow: 0.8px 2px #a2a2a2;
+    background-color: antiquewhite;
+}
+.categories > div:hover
+{
+    background-color: #f2f2f2;
+    color: rgb(0, 0, 64);
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: -0.2x;
+};

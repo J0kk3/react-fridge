@@ -1,11 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+//app
 import App from './App';
+//components
+import Wrapper from './components/Wrapper/Wrapper';
+import InputForm from './components/InputForm/WishListInputForm';
 
 const root = ReactDOM.createRoot( document.getElementById( 'root' ) );
 root.render(
   <React.StrictMode>
-    <App />
+    <Wrapper>
+      <InputForm />
+      <App />
+    </Wrapper>
   </React.StrictMode>
 );
