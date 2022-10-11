@@ -1,14 +1,40 @@
 .Modal {
     position: fixed;
     z-index: 200;
-    border: 1px solid #eee;
-    box-shadow: 0 2px 2px #ccc;
-    background-color: white;
+    border: 1px solid #a2a2a2;
+    box-shadow: 0 2px 2px #a2a2a2;
+    background-color: antiquewhite;
     padding: 10px;
     text-align: center;
     box-sizing: border-box;
     top: 30%;
     left: 25%;
-    width: 50%;
+    width: 25%;
     transition: all 0.3s ease-out;
+    border-radius: 15px;
+}
+.Modal>*{
+    margin: 1rem 2.5rem;
+}
+
+button {
+    width: 13rem;
+    height: 2.2rem;
+    padding: 1rem 10px;
+    margin: 8px 8px;
+    padding: 1px 10px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    color: rgb(0, 0, 64);
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0.8px 2px #a2a2a2;
+}
+
+button:hover {
+    background-color: #f2f2f2;
+    color: rgb(0, 0, 64);
+    font-weight: bold;
+    cursor: pointer;
+    border: solid 1px black;
 }
