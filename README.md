@@ -2,3 +2,5 @@
 Also if you delete an item, its still in the "list" just not retrievable for some reason (also by design).
 
 those were the specific rules for the assignment
+
+https://j0kk3.github.io/react-fridge/
